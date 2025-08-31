@@ -127,5 +127,5 @@ async def stop(ctx):
         await ctx.send('لا توجد أغنية قيد التشغيل أو متوقفة مؤقتاً.')
 
 # لا تقم بتشغيل البوت هنا، سيتم تشغيله بواسطة Flask
-bot.run(os.getenv('MTQxMTU2NDI5ODM2MjQyMTMwOQ.GMs20j.louoDFUNtOtDWr23cVOszWe2dJo5A5T2fw0Rm0'))
+bot.run(os.getenv('DISCORD_TOKEN'))
 
